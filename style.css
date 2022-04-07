@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom,#9595DF,#E46568);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-profile {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+
+.content-profile img {
+    width: 180px;
+    height: 180px;
+}
+
+.content-profile {
+    margin: 0 10px 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+.details-profile {
+    margin: -55px 0 0 80px;
+
+}
+
+.details-profile h3 {
+    padding: 30px 0 25px 0;
+}
+
+.content-profile p {
+    word-break: break-word;
+    width: 34%;
+}
+
+hr {
+    width: 130px;
+    border: 5px dotted #595C5C;
+    border-style: none none dotted; 
+    color: #fff; 
+    margin: 10px;
+}
+
+.container-contact {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.content-contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-contact table {
+    border: 2px solid #808080;
+    width: 100%;
+    height: 10%;
+    margin: 0 20px;
+}
+
+table td {
+    width: 50%;
+    height: 50%;
+    border: 2px solid #808080;
+    text-align: center;
+    font-size: 17px;
+}
+
+.container-details {
+    width: 100%;
+    height: 55%;
+}
+
+.content-details {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-details table {
+    border: 2px solid #808080;
+    width: 100%;
+    height: 100%;
+    margin: 0 20px;
+}
+
+
+.container-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 700;
+    margin: 40px 0 0 10px;
+}
+
+.container-job {
+    margin-top: 20px;
+}
+
+.container-job h4 {
+    text-align: start;
+}
+
+.container-job p {
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: start;
+}
+
+.container-job p:last-child {
+    font-weight: 700;
+    font-size: 14px;
+}
+.achievement {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+ul {
+    margin: 20px 0 0 50px;
+}
+
+.education {
+    text-align: start;
+    margin-top: 20px;
+}
+.education p{
+    margin-top: 25px;
+}
+.education h4 {
+    margin-top: 20px;
+}
+.education p:last-child {
+    font-size: 13px;
+}
+
+
+.container-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 700;
+    margin: 0 0 0 10px;
+}
+.soft-skills ,.technical , .Lang{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+
+.btn {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #FF4741;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    margin-top: 6px;
+        
+}
+
+.btn:hover {
+    background: #fa5d5a;
+    text-decoration: none;
+}
